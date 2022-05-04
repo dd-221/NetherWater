@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "netherwater",
+  "version": "${version}",
+  "name": "Nether Water",
+  "description": "Allows placing water in the Nether.",
+  "authors": [
+    "dd_221"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/netherwater/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.dd_221.netherwater.NetherWater"
+    ]
+  },
+  "mixins": [
+    "netherwater.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.4",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
