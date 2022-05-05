@@ -10,7 +10,7 @@
   "contact": {},
   "license": "MIT",
   "icon": "assets/netherwater/icon.png",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
     "main": [
       "com.dd_221.netherwater.NetherWater"

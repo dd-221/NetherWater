@@ -6,6 +6,9 @@
   "mixins": [
   ],
   "client": [
+    "NetherCheckMixin"
+  ],
+  "server": [
   ],
   "injectors": {
     "defaultRequire": 1
